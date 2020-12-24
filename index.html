@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<style>
+    #topborder {
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: 90px;
+  }
+    #bottomborder {
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: 90px;
+  }
+  #textbg {
+    z-index: 1;
+    position: absolute;
+    background: rgba(74, 74, 74,0.5);
+    top: calc(100% / 2 - (50%) / 2);
+    left: calc(100% / 2 - (35%) / 2); 
+    width: 35%;
+    height: 50%;
+    border-radius: 15px;
+    
+  }
+  html,body{
+    margin: 0;
+    height: 100%;
+  }
+
+body:before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  display: block;
+    background-image: url("https://media.discordapp.net/attachments/759052463915139073/791518220141723668/epic_manUpPhotonoise_scaleLevel0x2.000000.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+      filter: blur(4px);
+  width: 100%;
+  height: 100%
+}
+  html,body{
+    margin: 0;
+    height: 100%;
+  }
+  .headers{
+    text-align: center;
+    color: white;
+  
+  }
+  .gbtn{
+    padding: 5px;
+    background-color: #000457;
+    font-size: 25px;
+    border: 5px solid #000457;
+    color: white;
+    border-radius: 0px;
+    font-family: Helvetica, Arial;
+    transition-duration: 0.5s;
+    margin: 0 auto;
+  }
+  .gbtn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    color: black;
+  }
+
+</style>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>crackhead corp</title>
+</head>
+<body>
+  <div id="topborder"></div>
+  <div id="textbg">
+    <h1 class="headers">Welcome to Crackhead Corp</h1>
+    <h2 class="headers">only the best unblocked shit</h2>
+    <button class="gbtn">JavaScript Bookmarks</button>
+  </div>
+  
+  
+  </body>
+
+</html>
